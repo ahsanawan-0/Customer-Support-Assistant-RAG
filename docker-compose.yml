@@ -1,0 +1,12 @@
+services:
+  trailhead-bot:
+    build: .
+    container_name: trailhead-assistant
+    ports:
+      - "3000:3000"
+    environment:
+      # Reads your key from the host .env file (see .env.example)
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY}
+      MODEL: ${MODEL:-claude-sonnet-5}
+      PORT: 3000
+    restart: unless-stopped

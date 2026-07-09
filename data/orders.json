@@ -1,0 +1,128 @@
+[
+  {
+    "order_number": "TH100482",
+    "email": "jordan.rivera@example.com",
+    "customer_name": "Jordan Rivera",
+    "order_date": "2026-06-28",
+    "status": "Shipped",
+    "carrier": "UPS",
+    "tracking_number": "1Z999AA10123456784",
+    "estimated_delivery": "2026-07-11",
+    "shipping_address": "482 Maple Ave, Boulder, CO 80302",
+    "items": [
+      { "id": "TH-TNT-100", "name": "Basecamp 2P Tent", "qty": 1, "price": 329.0 },
+      { "id": "TH-ACC-510", "name": "Firefly Headlamp 400", "qty": 2, "price": 45.0 }
+    ],
+    "total": 419.0
+  },
+  {
+    "order_number": "TH100517",
+    "email": "sam.chen@example.com",
+    "customer_name": "Sam Chen",
+    "order_date": "2026-07-05",
+    "status": "Processing",
+    "carrier": null,
+    "tracking_number": null,
+    "estimated_delivery": "2026-07-14",
+    "shipping_address": "17 Birch St, Portland, OR 97202",
+    "items": [
+      { "id": "TH-BCK-300", "name": "Trailhead 55L Backpack", "qty": 1, "price": 219.0 }
+    ],
+    "total": 219.0
+  },
+  {
+    "order_number": "TH100333",
+    "email": "priya.patel@example.com",
+    "customer_name": "Priya Patel",
+    "order_date": "2026-06-15",
+    "status": "Delivered",
+    "carrier": "FedEx",
+    "tracking_number": "772199113456",
+    "estimated_delivery": "2026-06-20",
+    "delivered_date": "2026-06-19",
+    "shipping_address": "9 Sunset Blvd, Austin, TX 78704",
+    "items": [
+      { "id": "TH-FTW-400", "name": "Bedrock Waterproof Hiking Boots", "qty": 1, "price": 169.0 },
+      { "id": "TH-ACC-520", "name": "Alpine Wool Hiking Socks (2-Pack)", "qty": 2, "price": 28.0 }
+    ],
+    "total": 225.0
+  },
+  {
+    "order_number": "TH100601",
+    "email": "alex.morgan@example.com",
+    "customer_name": "Alex Morgan",
+    "order_date": "2026-07-07",
+    "status": "Processing",
+    "carrier": null,
+    "tracking_number": null,
+    "estimated_delivery": "2026-07-16",
+    "shipping_address": "205 Cedar Ln, Denver, CO 80211",
+    "items": [
+      { "id": "TH-JKT-001", "name": "Summit Ridge 3-in-1 Jacket", "qty": 1, "price": 249.0 }
+    ],
+    "total": 249.0
+  },
+  {
+    "order_number": "TH100295",
+    "email": "taylor.brooks@example.com",
+    "customer_name": "Taylor Brooks",
+    "order_date": "2026-06-02",
+    "status": "Delivered",
+    "carrier": "USPS",
+    "tracking_number": "9400111899223344556677",
+    "estimated_delivery": "2026-06-09",
+    "delivered_date": "2026-06-08",
+    "shipping_address": "88 Willow Way, Asheville, NC 28801",
+    "items": [
+      { "id": "TH-SLP-200", "name": "Nightfall 20° Sleeping Bag", "qty": 1, "price": 179.0 },
+      { "id": "TH-SLP-210", "name": "Cloudrest Sleeping Pad", "qty": 1, "price": 99.0 }
+    ],
+    "total": 278.0
+  },
+  {
+    "order_number": "TH100644",
+    "email": "jordan.rivera@example.com",
+    "customer_name": "Jordan Rivera",
+    "order_date": "2026-07-08",
+    "status": "Processing",
+    "carrier": null,
+    "tracking_number": null,
+    "estimated_delivery": "2026-07-17",
+    "shipping_address": "482 Maple Ave, Boulder, CO 80302",
+    "items": [
+      { "id": "TH-INS-010", "name": "Emberlite Down Hoody", "qty": 1, "price": 189.0 }
+    ],
+    "total": 189.0
+  },
+  {
+    "order_number": "TH100210",
+    "email": "casey.nguyen@example.com",
+    "customer_name": "Casey Nguyen",
+    "order_date": "2026-06-25",
+    "status": "Cancelled",
+    "carrier": null,
+    "tracking_number": null,
+    "estimated_delivery": null,
+    "shipping_address": "31 Aspen Ct, Salt Lake City, UT 84101",
+    "items": [
+      { "id": "TH-BCK-310", "name": "Daybreak 22L Daypack", "qty": 1, "price": 89.0 }
+    ],
+    "total": 89.0
+  },
+  {
+    "order_number": "TH100488",
+    "email": "sam.chen@example.com",
+    "customer_name": "Sam Chen",
+    "order_date": "2026-06-30",
+    "status": "Shipped",
+    "carrier": "FedEx",
+    "tracking_number": "772199778899",
+    "estimated_delivery": "2026-07-10",
+    "shipping_address": "17 Birch St, Portland, OR 97202",
+    "items": [
+      { "id": "TH-JKT-002", "name": "Cascade Rain Shell", "qty": 1, "price": 139.0 },
+      { "id": "TH-ACC-500", "name": "Trailhead Insulated Bottle 1L", "qty": 1, "price": 39.0 }
+    ],
+    "total": 178.0
+  }
+]

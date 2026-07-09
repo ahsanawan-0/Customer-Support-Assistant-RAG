@@ -1,0 +1,24 @@
+{
+  "name": "trailhead-support-bot",
+  "version": "1.0.0",
+  "description": "RAG-powered customer support chatbot for Trailhead Outfitters (outdoor apparel & camping gear).",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "chatbot",
+    "customer-support",
+    "rag",
+    "claude",
+    "anthropic"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.68.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}

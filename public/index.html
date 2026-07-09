@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trailhead Assistant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="topbar">
+        <div class="brand">
+          <span class="logo">🏔</span>
+          <div>
+            <h1>Trailhead Outfitters</h1>
+            <p>Customer Support Assistant</p>
+          </div>
+        </div>
+        <div class="topbar-actions">
+          <span class="status-dot" title="Online"></span>
+          <button id="new-chat" class="ghost-btn" title="Start a new conversation">New chat</button>
+        </div>
+      </header>
+
+      <main class="chat" id="chat" aria-live="polite"></main>
+
+      <div class="suggestions" id="suggestions">
+        <button data-msg="Where is my order TH100482?">📦 Track an order</button>
+        <button data-msg="I'd like to return the boots from order TH100333.">↩️ Start a return</button>
+        <button data-msg="Can you recommend a waterproof jacket for backpacking under $200?">🧭 Recommend gear</button>
+        <button data-msg="What is your return policy?">❓ Return policy</button>
+        <button data-msg="I want to talk to a human.">🙋 Talk to a human</button>
+      </div>
+
+      <form class="composer" id="composer">
+        <input
+          id="input"
+          type="text"
+          autocomplete="off"
+          placeholder="Ask about an order, a return, or gear recommendations…"
+        />
+        <button type="submit" id="send" aria-label="Send">➤</button>
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
