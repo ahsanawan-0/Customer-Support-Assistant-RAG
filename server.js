@@ -1,6 +1,4 @@
-// server.js
-// Express server: serves the chat UI and exposes POST /api/chat.
-// Conversation state is kept per-session in memory (fine for a demo).
+
 
 import "dotenv/config";
 import express from "express";
@@ -16,7 +14,6 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 app.use(express.static(join(__dirname, "public")));
 
-// In-memory conversation store: sessionId -> messages[]
 const sessions = new Map();
 
 app.post("/api/chat", async (req, res) => {
@@ -39,7 +36,6 @@ app.post("/api/chat", async (req, res) => {
   }
 });
 
-// Reset a conversation (used by the "New chat" button).
 app.post("/api/reset", (req, res) => {
   const { sessionId = "default" } = req.body || {};
   sessions.delete(sessionId);
